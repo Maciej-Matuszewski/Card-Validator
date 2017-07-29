@@ -59,17 +59,30 @@ class MainViewControllerTests: XCTestCase {
         
         EarlGrey
             .select(elementWithMatcher: grey_accessibilityID("CARD_NUMBER_FIELD"))
-            .perform(grey_typeText("12341234123412341111222"))
+            .perform(grey_typeText("33333333333333331111222"))
         
-        for _ in 0..<7{
+        EarlGrey
+            .select(elementWithMatcher: grey_accessibilityID("CARD_CVC_FIELD"))
+            .perform(grey_tap())
+        
+        for _ in 0..<21{
+            
+            
             EarlGrey
-                .select(elementWithMatcher: grey_accessibilityID("CARD_CVC_FIELD"))
-                .perform(grey_typeText("\u{8}"))
+                .select(
+                    elementWithMatcher: grey_anyOf(
+                        [
+                            grey_accessibilityLabel("Delete"),
+                            grey_accessibilityLabel("Usuń"),
+                        ]
+                    )
+                )
+                .perform(grey_tap())
         }
         
         EarlGrey
-            .select(elementWithMatcher: grey_accessibilityID("CARD_DATE_FIELD"))
-            .assert(with: grey_descendant(grey_text("1")))
+            .select(elementWithMatcher: grey_accessibilityID("CARD_NUMBER_FIELD"))
+            .assert(with: grey_descendant(grey_text("33")))
     }
     
     func testControllerSetNewCardNumber(){
