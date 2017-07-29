@@ -1,0 +1,264 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/AppDelegate.swift",
+      "line": 13,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 11,
+      "symbol": "CardInfoModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 13,
+      "symbol": "CardInfoModel.bin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 14,
+      "symbol": "CardInfoModel.bank",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 15,
+      "symbol": "CardInfoModel.card",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 16,
+      "symbol": "CardInfoModel.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 17,
+      "symbol": "CardInfoModel.level",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 18,
+      "symbol": "CardInfoModel.country",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 19,
+      "symbol": "CardInfoModel.countrycode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 20,
+      "symbol": "CardInfoModel.website",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 21,
+      "symbol": "CardInfoModel.phone",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/CardInfoModel.swift",
+      "line": 22,
+      "symbol": "CardInfoModel.valid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/ErrorHandler.swift",
+      "line": 11,
+      "symbol": "ErrorHandler",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/ErrorModel.swift",
+      "line": 11,
+      "symbol": "ErrorModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMCardCVCTextFieldDelegate.swift",
+      "line": null,
+      "symbol": "MMCardCVCTextFieldDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMCardCVCTextFieldDelegate.swift",
+      "line": 11,
+      "symbol": "MMCardCVCTextFieldDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMCardDateTextFieldDelegate.swift",
+      "line": null,
+      "symbol": "MMCardDateTextFieldDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMCardDateTextFieldDelegate.swift",
+      "line": 11,
+      "symbol": "MMCardDateTextFieldDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMCardNumberTextFieldDelegate.swift",
+      "line": null,
+      "symbol": "MMCardNumberTextFieldDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMCardNumberTextFieldDelegate.swift",
+      "line": 11,
+      "symbol": "MMCardNumberTextFieldDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMGenerator.swift",
+      "line": 17,
+      "symbol": "MMGenerator.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMGenerator.swift",
+      "line": 25,
+      "symbol": "MMGenerator.CardProvider.Visa",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMGenerator.swift",
+      "line": 26,
+      "symbol": "MMGenerator.CardProvider.MasterCard",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMGenerator.swift",
+      "line": 27,
+      "symbol": "MMGenerator.CardProvider.Discover",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMStatusIndicator.swift",
+      "line": 21,
+      "symbol": "MMStatusIndicator.State.loading",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMStatusIndicator.swift",
+      "line": 22,
+      "symbol": "MMStatusIndicator.State.hidden",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMStatusIndicator.swift",
+      "line": 23,
+      "symbol": "MMStatusIndicator.State.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMStatusIndicator.swift",
+      "line": 24,
+      "symbol": "MMStatusIndicator.State.failure",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMTextField.swift",
+      "line": 79,
+      "symbol": "MMTextField.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMTextField.swift",
+      "line": 148,
+      "symbol": "MMTextField.textField(_:shouldChangeCharactersIn:replacementString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMTextField.swift",
+      "line": 164,
+      "symbol": "MMTextField.textFieldValueChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMTextField.swift",
+      "line": 173,
+      "symbol": "MMTextField.keyboardInputShouldDelete(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/MMTextField.swift",
+      "line": 182,
+      "symbol": "MMTextField.textFieldOnEndEdit(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/Network.swift",
+      "line": 13,
+      "symbol": "Network.validate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/Network.swift",
+      "line": 23,
+      "symbol": "Network.HTTPMethod.GET",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/Network.swift",
+      "line": 24,
+      "symbol": "Network.HTTPMethod.POST",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App/Netguru Interview App/Network.swift",
+      "line": 25,
+      "symbol": "Network.HTTPMethod.PUT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/gr3mlin106/Programowanie/Projekty/Netguru Interview App"
+}
