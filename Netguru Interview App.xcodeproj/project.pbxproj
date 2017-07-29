@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		147F805F1F2C0F9A009408CC /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F805E1F2C0F9A009408CC /* ModelsTests.swift */; };
+		147F80611F2C13B2009408CC /* ErrorHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F80601F2C13B2009408CC /* ErrorHandlerTests.swift */; };
 		14CD639D1F2912B300EAF22F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD639C1F2912B300EAF22F /* AppDelegate.swift */; };
 		14CD63A41F2912B300EAF22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CD63A31F2912B300EAF22F /* Assets.xcassets */; };
 		14CD63A71F2912B300EAF22F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CD63A51F2912B300EAF22F /* LaunchScreen.storyboard */; };
-		14CD63B21F2912B400EAF22F /* Netguru_Interview_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63B11F2912B400EAF22F /* Netguru_Interview_AppTests.swift */; };
 		14CD63C11F29138700EAF22F /* FlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63BC1F29138700EAF22F /* FlowManager.swift */; };
-		14CD63C31F29138700EAF22F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63BE1F29138700EAF22F /* Configuration.swift */; };
 		14CD63C41F29138700EAF22F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63BF1F29138700EAF22F /* Constants.swift */; };
-		14CD63C51F29138700EAF22F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63C01F29138700EAF22F /* Extensions.swift */; };
+		14CD63CA1F291D1D00EAF22F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63C91F291D1D00EAF22F /* BaseViewController.swift */; };
+		14CD63CC1F291E0A00EAF22F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63CB1F291E0A00EAF22F /* MainViewController.swift */; };
+		14CD63CF1F2921C000EAF22F /* MMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63CE1F2921C000EAF22F /* MMTextField.swift */; };
+		14CD63D11F29596E00EAF22F /* MMCardNumberTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63D01F29596E00EAF22F /* MMCardNumberTextFieldDelegate.swift */; };
+		14CD63D31F2A070B00EAF22F /* MMCardDateTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63D21F2A070B00EAF22F /* MMCardDateTextFieldDelegate.swift */; };
+		14CD63D51F2A1E8500EAF22F /* MMCardCVCTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63D41F2A1E8500EAF22F /* MMCardCVCTextFieldDelegate.swift */; };
+		14CD63D81F2A230F00EAF22F /* MMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63D71F2A230F00EAF22F /* MMButton.swift */; };
+		14CD63DB1F2A285100EAF22F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63D91F2A285100EAF22F /* Network.swift */; };
+		14CD63DC1F2A285100EAF22F /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63DA1F2A285100EAF22F /* ErrorHandler.swift */; };
+		14CD63DE1F2A2D2D00EAF22F /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CD63DD1F2A2D2D00EAF22F /* MainPresenter.swift */; };
+		14F3AA591F2A47A40026F766 /* MMObjectModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA581F2A47A40026F766 /* MMObjectModelProtocol.swift */; };
+		14F3AA5B1F2A48380026F766 /* CardInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA5A1F2A48380026F766 /* CardInfoModel.swift */; };
+		14F3AA5E1F2A51B60026F766 /* MMStatusIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA5D1F2A51B60026F766 /* MMStatusIndicator.swift */; };
+		14F3AA611F2A5EC40026F766 /* MMGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA601F2A5EC40026F766 /* MMGenerator.swift */; };
+		14F3AA631F2A6BF50026F766 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA621F2A6BF50026F766 /* ErrorModel.swift */; };
+		14F3AA691F2A93670026F766 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA661F2A93670026F766 /* UIColor+AppColors.swift */; };
+		14F3AA6A1F2A93670026F766 /* UIFont+AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA671F2A93670026F766 /* UIFont+AppFonts.swift */; };
+		14F3AA6B1F2A93670026F766 /* String+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA681F2A93670026F766 /* String+Utility.swift */; };
+		14F3AA6D1F2B99700026F766 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA6C1F2B99700026F766 /* EarlGrey.swift */; };
+		14F3AA6F1F2BF6780026F766 /* MMGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA6E1F2BF6780026F766 /* MMGeneratorTests.swift */; };
+		14F3AA721F2BFA140026F766 /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AA711F2BFA140026F766 /* MainViewControllerTests.swift */; };
+		1A0FF656D18CE8F2C36E686E /* Pods_Netguru_Interview_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E57701D19D3BCD4738F638B /* Pods_Netguru_Interview_App.framework */; };
+		5E4D814FC3E9325123E2B0F2 /* Pods_Netguru_Interview_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E227AD0E8F3F1EF1410F220D /* Pods_Netguru_Interview_AppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +50,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0438427B688A2E4418F14628 /* Pods-Netguru Interview AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netguru Interview AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Netguru Interview AppTests/Pods-Netguru Interview AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D4C3803A2BF97F0CC49B4DC /* Pods-Netguru Interview AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netguru Interview AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Netguru Interview AppTests/Pods-Netguru Interview AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		147F805E1F2C0F9A009408CC /* ModelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
+		147F80601F2C13B2009408CC /* ErrorHandlerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandlerTests.swift; sourceTree = "<group>"; };
 		14CD63991F2912B300EAF22F /* Netguru Interview App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netguru Interview App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CD639C1F2912B300EAF22F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14CD63A31F2912B300EAF22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14CD63A61F2912B300EAF22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14CD63A81F2912B300EAF22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CD63AD1F2912B400EAF22F /* Netguru Interview AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netguru Interview AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14CD63B11F2912B400EAF22F /* Netguru_Interview_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netguru_Interview_AppTests.swift; sourceTree = "<group>"; };
 		14CD63B31F2912B400EAF22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CD63BC1F29138700EAF22F /* FlowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowManager.swift; sourceTree = "<group>"; };
-		14CD63BE1F29138700EAF22F /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		14CD63BF1F29138700EAF22F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		14CD63C01F29138700EAF22F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		14CD63C91F291D1D00EAF22F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		14CD63CB1F291E0A00EAF22F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		14CD63CE1F2921C000EAF22F /* MMTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMTextField.swift; sourceTree = "<group>"; };
+		14CD63D01F29596E00EAF22F /* MMCardNumberTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCardNumberTextFieldDelegate.swift; sourceTree = "<group>"; };
+		14CD63D21F2A070B00EAF22F /* MMCardDateTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCardDateTextFieldDelegate.swift; sourceTree = "<group>"; };
+		14CD63D41F2A1E8500EAF22F /* MMCardCVCTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCardCVCTextFieldDelegate.swift; sourceTree = "<group>"; };
+		14CD63D71F2A230F00EAF22F /* MMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMButton.swift; sourceTree = "<group>"; };
+		14CD63D91F2A285100EAF22F /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		14CD63DA1F2A285100EAF22F /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		14CD63DD1F2A2D2D00EAF22F /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		14F3AA581F2A47A40026F766 /* MMObjectModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMObjectModelProtocol.swift; sourceTree = "<group>"; };
+		14F3AA5A1F2A48380026F766 /* CardInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInfoModel.swift; sourceTree = "<group>"; };
+		14F3AA5D1F2A51B60026F766 /* MMStatusIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMStatusIndicator.swift; sourceTree = "<group>"; };
+		14F3AA601F2A5EC40026F766 /* MMGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMGenerator.swift; sourceTree = "<group>"; };
+		14F3AA621F2A6BF50026F766 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		14F3AA661F2A93670026F766 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
+		14F3AA671F2A93670026F766 /* UIFont+AppFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+AppFonts.swift"; sourceTree = "<group>"; };
+		14F3AA681F2A93670026F766 /* String+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utility.swift"; sourceTree = "<group>"; };
+		14F3AA6C1F2B99700026F766 /* EarlGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		14F3AA6E1F2BF6780026F766 /* MMGeneratorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMGeneratorTests.swift; sourceTree = "<group>"; };
+		14F3AA711F2BFA140026F766 /* MainViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerTests.swift; sourceTree = "<group>"; };
+		7D3E109254EE741A05D01599 /* Pods-Netguru Interview App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netguru Interview App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Netguru Interview App/Pods-Netguru Interview App.release.xcconfig"; sourceTree = "<group>"; };
+		7E57701D19D3BCD4738F638B /* Pods_Netguru_Interview_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Netguru_Interview_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1073C04981C77224CB9B0F /* Pods-Netguru Interview App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Netguru Interview App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Netguru Interview App/Pods-Netguru Interview App.debug.xcconfig"; sourceTree = "<group>"; };
+		E227AD0E8F3F1EF1410F220D /* Pods_Netguru_Interview_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Netguru_Interview_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0FF656D18CE8F2C36E686E /* Pods_Netguru_Interview_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E4D814FC3E9325123E2B0F2 /* Pods_Netguru_Interview_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +116,8 @@
 				14CD639B1F2912B300EAF22F /* Netguru Interview App */,
 				14CD63B01F2912B400EAF22F /* Netguru Interview AppTests */,
 				14CD639A1F2912B300EAF22F /* Products */,
+				8B173F9B884D37B856E45A82 /* Pods */,
+				D4EAD96DB860A29FE03F8625 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				14CD63C61F29139800EAF22F /* Config */,
+				14CD63C81F291CF800EAF22F /* Screens */,
+				14CD63CD1F29217F00EAF22F /* Custom UI Elements */,
+				14F3AA571F2A476E0026F766 /* Models */,
+				14F3AA5F1F2A5E8F0026F766 /* Utility */,
 				14CD63C71F2913A300EAF22F /* Resources */,
 			);
 			path = "Netguru Interview App";
@@ -90,7 +146,8 @@
 		14CD63B01F2912B400EAF22F /* Netguru Interview AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				14CD63B11F2912B400EAF22F /* Netguru_Interview_AppTests.swift */,
+				14F3AA701F2BF9F60026F766 /* Tests */,
+				14F3AA6C1F2B99700026F766 /* EarlGrey.swift */,
 				14CD63B31F2912B400EAF22F /* Info.plist */,
 			);
 			path = "Netguru Interview AppTests";
@@ -101,9 +158,9 @@
 			children = (
 				14CD639C1F2912B300EAF22F /* AppDelegate.swift */,
 				14CD63BC1F29138700EAF22F /* FlowManager.swift */,
-				14CD63BE1F29138700EAF22F /* Configuration.swift */,
 				14CD63BF1F29138700EAF22F /* Constants.swift */,
-				14CD63C01F29138700EAF22F /* Extensions.swift */,
+				14F3AA641F2A92900026F766 /* Extensions */,
+				14F3AA651F2A92A30026F766 /* Network */,
 			);
 			name = Config;
 			sourceTree = "<group>";
@@ -118,6 +175,113 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		14CD63C81F291CF800EAF22F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				14CD63C91F291D1D00EAF22F /* BaseViewController.swift */,
+				14F3AA5C1F2A4C920026F766 /* Main */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		14CD63CD1F29217F00EAF22F /* Custom UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				14CD63D61F2A21BE00EAF22F /* TextField */,
+				14CD63D71F2A230F00EAF22F /* MMButton.swift */,
+				14F3AA5D1F2A51B60026F766 /* MMStatusIndicator.swift */,
+			);
+			name = "Custom UI Elements";
+			sourceTree = "<group>";
+		};
+		14CD63D61F2A21BE00EAF22F /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				14CD63CE1F2921C000EAF22F /* MMTextField.swift */,
+				14CD63D01F29596E00EAF22F /* MMCardNumberTextFieldDelegate.swift */,
+				14CD63D21F2A070B00EAF22F /* MMCardDateTextFieldDelegate.swift */,
+				14CD63D41F2A1E8500EAF22F /* MMCardCVCTextFieldDelegate.swift */,
+			);
+			name = TextField;
+			sourceTree = "<group>";
+		};
+		14F3AA571F2A476E0026F766 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14F3AA581F2A47A40026F766 /* MMObjectModelProtocol.swift */,
+				14F3AA5A1F2A48380026F766 /* CardInfoModel.swift */,
+				14F3AA621F2A6BF50026F766 /* ErrorModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		14F3AA5C1F2A4C920026F766 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				14CD63CB1F291E0A00EAF22F /* MainViewController.swift */,
+				14CD63DD1F2A2D2D00EAF22F /* MainPresenter.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		14F3AA5F1F2A5E8F0026F766 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				14F3AA601F2A5EC40026F766 /* MMGenerator.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		14F3AA641F2A92900026F766 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				14F3AA661F2A93670026F766 /* UIColor+AppColors.swift */,
+				14F3AA671F2A93670026F766 /* UIFont+AppFonts.swift */,
+				14F3AA681F2A93670026F766 /* String+Utility.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		14F3AA651F2A92A30026F766 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				14CD63D91F2A285100EAF22F /* Network.swift */,
+				14CD63DA1F2A285100EAF22F /* ErrorHandler.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		14F3AA701F2BF9F60026F766 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				14F3AA6E1F2BF6780026F766 /* MMGeneratorTests.swift */,
+				14F3AA711F2BFA140026F766 /* MainViewControllerTests.swift */,
+				147F805E1F2C0F9A009408CC /* ModelsTests.swift */,
+				147F80601F2C13B2009408CC /* ErrorHandlerTests.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		8B173F9B884D37B856E45A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E1073C04981C77224CB9B0F /* Pods-Netguru Interview App.debug.xcconfig */,
+				7D3E109254EE741A05D01599 /* Pods-Netguru Interview App.release.xcconfig */,
+				0D4C3803A2BF97F0CC49B4DC /* Pods-Netguru Interview AppTests.debug.xcconfig */,
+				0438427B688A2E4418F14628 /* Pods-Netguru Interview AppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4EAD96DB860A29FE03F8625 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E57701D19D3BCD4738F638B /* Pods_Netguru_Interview_App.framework */,
+				E227AD0E8F3F1EF1410F220D /* Pods_Netguru_Interview_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14CD63B61F2912B400EAF22F /* Build configuration list for PBXNativeTarget "Netguru Interview App" */;
 			buildPhases = (
+				533F120C953D474486FAA284 /* [CP] Check Pods Manifest.lock */,
 				14CD63951F2912B300EAF22F /* Sources */,
 				14CD63961F2912B300EAF22F /* Frameworks */,
 				14CD63971F2912B300EAF22F /* Resources */,
+				6559AD1172289961918B3910 /* [CP] Embed Pods Frameworks */,
+				37E0D40DD5F9943B26DECE3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,9 +309,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14CD63B91F2912B400EAF22F /* Build configuration list for PBXNativeTarget "Netguru Interview AppTests" */;
 			buildPhases = (
+				6E7B898A4327B4D4757F65BE /* [CP] Check Pods Manifest.lock */,
 				14CD63A91F2912B400EAF22F /* Sources */,
 				14CD63AA1F2912B400EAF22F /* Frameworks */,
 				14CD63AB1F2912B400EAF22F /* Resources */,
+				B53CD18F91C7F772C28D53EB /* [CP] Embed Pods Frameworks */,
+				B200641C9CED9079B9A7E694 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,16 +387,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37E0D40DD5F9943B26DECE3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Netguru Interview App/Pods-Netguru Interview App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		533F120C953D474486FAA284 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6559AD1172289961918B3910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Netguru Interview App/Pods-Netguru Interview App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7B898A4327B4D4757F65BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B200641C9CED9079B9A7E694 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Netguru Interview AppTests/Pods-Netguru Interview AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53CD18F91C7F772C28D53EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Netguru Interview AppTests/Pods-Netguru Interview AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14CD63951F2912B300EAF22F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F3AA5B1F2A48380026F766 /* CardInfoModel.swift in Sources */,
+				14F3AA691F2A93670026F766 /* UIColor+AppColors.swift in Sources */,
+				14CD63DB1F2A285100EAF22F /* Network.swift in Sources */,
+				14F3AA591F2A47A40026F766 /* MMObjectModelProtocol.swift in Sources */,
+				14F3AA611F2A5EC40026F766 /* MMGenerator.swift in Sources */,
+				14CD63DC1F2A285100EAF22F /* ErrorHandler.swift in Sources */,
+				14CD63CC1F291E0A00EAF22F /* MainViewController.swift in Sources */,
+				14CD63DE1F2A2D2D00EAF22F /* MainPresenter.swift in Sources */,
 				14CD63C41F29138700EAF22F /* Constants.swift in Sources */,
-				14CD63C51F29138700EAF22F /* Extensions.swift in Sources */,
+				14CD63D51F2A1E8500EAF22F /* MMCardCVCTextFieldDelegate.swift in Sources */,
+				14F3AA631F2A6BF50026F766 /* ErrorModel.swift in Sources */,
 				14CD639D1F2912B300EAF22F /* AppDelegate.swift in Sources */,
+				14CD63D11F29596E00EAF22F /* MMCardNumberTextFieldDelegate.swift in Sources */,
 				14CD63C11F29138700EAF22F /* FlowManager.swift in Sources */,
-				14CD63C31F29138700EAF22F /* Configuration.swift in Sources */,
+				14CD63D81F2A230F00EAF22F /* MMButton.swift in Sources */,
+				14F3AA5E1F2A51B60026F766 /* MMStatusIndicator.swift in Sources */,
+				14F3AA6A1F2A93670026F766 /* UIFont+AppFonts.swift in Sources */,
+				14CD63CA1F291D1D00EAF22F /* BaseViewController.swift in Sources */,
+				14F3AA6B1F2A93670026F766 /* String+Utility.swift in Sources */,
+				14CD63D31F2A070B00EAF22F /* MMCardDateTextFieldDelegate.swift in Sources */,
+				14CD63CF1F2921C000EAF22F /* MMTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +513,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14CD63B21F2912B400EAF22F /* Netguru_Interview_AppTests.swift in Sources */,
+				147F80611F2C13B2009408CC /* ErrorHandlerTests.swift in Sources */,
+				14F3AA6D1F2B99700026F766 /* EarlGrey.swift in Sources */,
+				14F3AA6F1F2BF6780026F766 /* MMGeneratorTests.swift in Sources */,
+				14F3AA721F2BFA140026F766 /* MainViewControllerTests.swift in Sources */,
+				147F805F1F2C0F9A009408CC /* ModelsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +638,12 @@
 		};
 		14CD63B71F2912B400EAF22F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1073C04981C77224CB9B0F /* Pods-Netguru Interview App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TLA9984P8M;
 				INFOPLIST_FILE = "Netguru Interview App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matuszewskiMaciej.Netguru-Interview-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,10 +653,12 @@
 		};
 		14CD63B81F2912B400EAF22F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3E109254EE741A05D01599 /* Pods-Netguru Interview App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TLA9984P8M;
 				INFOPLIST_FILE = "Netguru Interview App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matuszewskiMaciej.Netguru-Interview-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +668,7 @@
 		};
 		14CD63BA1F2912B400EAF22F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4C3803A2BF97F0CC49B4DC /* Pods-Netguru Interview AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -396,6 +684,7 @@
 		};
 		14CD63BB1F2912B400EAF22F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0438427B688A2E4418F14628 /* Pods-Netguru Interview AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -428,6 +717,7 @@
 				14CD63B81F2912B400EAF22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14CD63B91F2912B400EAF22F /* Build configuration list for PBXNativeTarget "Netguru Interview AppTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +726,7 @@
 				14CD63BB1F2912B400EAF22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
