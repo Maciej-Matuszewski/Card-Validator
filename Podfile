@@ -9,11 +9,11 @@ def import_common_pods
   pod 'IQKeyboardManager'
 end
 
-target 'Netguru Interview App' do
+target 'Card Validator' do
   import_common_pods
 end
 
-target 'Netguru Interview AppTests' do
+target 'Card ValidatorTests' do
   inherit! :search_paths
   import_common_pods
   pod 'EarlGrey'
